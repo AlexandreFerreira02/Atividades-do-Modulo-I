@@ -1,0 +1,131 @@
+# Atividade 1
+
+numero = float(input('Digite um número: '))
+
+if numero > 0:
+    print('O número é positivo.')
+else:
+    print('O número não é positivo.')
+
+# Atividade 2
+
+idade = int(input('Digite sua idade: '))
+
+if idade >= 18:
+    print('Você é maior de idade.')
+else:
+    print('Você é menor de idade.')
+
+# Atividade 3 
+
+nota = float(input('Digite a nota (0 a 10): '))
+
+if nota >= 7:
+    print('Aprovado')
+elif nota >= 5:
+    print('Recuperação')
+else:
+    print('Reprovado')
+
+# Atividade 4 
+
+numero = int(input('Digite um número: '))
+
+if numero > 0:
+    print('O número é positivo.')
+else:
+    print('O número não é positivo.')
+
+if numero % 2 == 0:
+    print('O número é par.')
+else:
+    print('O número é ímpar.')
+
+if numero % 5 == 0:
+    print('O número é múltiplo de 5.')
+else:
+    print('O número não é múltiplo de 5.')
+
+# Atividade 5
+
+cor = input('Digite a cor do semáforo (verde, amarelo, vermelho): ').lower()
+
+if cor == 'verde':
+    print('Siga')
+elif cor == 'amarelo':
+    print('Atenção')
+elif cor == 'vermelho':
+    print('Pare')
+else:
+    print('Cor inválida')
+
+# Atividade 6 
+
+idade = int(input('Digite sua idade: '))
+
+if idade >= 18:
+    habilitacao = input('Você tem habilitação? (sim/não): ').lower()
+    
+    if habilitacao == 'sim':
+        print('Você pode dirigir.')
+    else:
+        print('Você não pode dirigir.')
+else:
+    print('Você é menor de idade e não pode dirigir.')
+
+# Atividade 7
+
+numero = int(input('Digite um número: '))
+
+if numero % 2 == 0:
+    print('Par')
+else:
+    print('Ímpar')
+
+# Atividade 8
+
+numero = int(input('Digite um número: '))
+
+if numero >= 10 and numero <= 20:
+    print('O número está entre 10 e 20.')
+else:
+    print('O número não está entre 10 e 20.')
+
+# Atividade 9 
+
+num1 = float(input('Digite o primeiro número: '))
+num2 = float(input('Digite o segundo número: '))
+num3 = float(input('Digite o terceiro número: '))
+
+if num1 >= num2 and num1 >= num3:
+    print('O maior número é:', num1)
+elif num2 >= num1 and num2 >= num3:
+    print('O maior número é:', num2)
+else:
+    print('O maior número é:', num3)
+
+# Atividade 10
+
+usuario = input('Digite o usuário: ')
+senha = input('Digite a senha: ')
+
+if usuario == 'admin' and senha == '1234':
+    print('Acesso permitido')
+else:
+    print('Acesso negado')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
