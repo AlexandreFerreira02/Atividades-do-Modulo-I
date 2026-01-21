@@ -1,0 +1,124 @@
+# Atividade 1
+
+soma = 0
+
+numero = int(input('Digite um número (0 para encerrar): '))
+
+while numero != 0:
+    soma = soma + numero
+    numero = int(input('Digite um número (0 para encerrar): '))
+
+print('A soma de todos os números digitados é:', soma)
+
+# Atividade 2
+
+senha = input('Digite a senha: ')
+
+while senha != 'python123':
+    print('Senha incorreta. Tente novamente.')
+    senha = input('Digite a senha: ')
+
+print('Senha correta! Acesso permitido.')
+
+# Atividade 3
+
+numero = int(input('Digite um número para ver a tabuada: '))
+
+contador = 1
+
+while contador <= 10:
+    print(numero, 'x', contador, '=', numero * contador)
+    contador = contador + 1
+
+# Atividade 4
+
+numero = 1
+
+while numero <= 20:
+    if numero % 2 == 0:
+        print(numero)
+    numero = numero + 1
+
+# Atividade 5
+
+contador = 1
+maior = None
+
+while contador <= 5:
+    numero = float(input('Digite o ' + str(contador) + 'º número: '))
+    
+    if maior is None or numero > maior:
+        maior = numero
+    
+    contador = contador + 1
+
+print('O maior número digitado foi:', maior)
+
+# Atividade 6 
+
+texto = input('Digite uma frase ou palavra: ').lower()
+
+indice = 0
+contador_vogais = 0
+
+while indice < len(texto):
+    if texto[indice] in 'aeiou':
+        contador_vogais = contador_vogais + 1
+    indice = indice + 1
+
+print('Quantidade de vogais:', contador_vogais)
+
+# Atividade 7
+
+def soma(num1, num2):
+    return num1 + num2
+
+
+resultado = soma(5, 3)
+print('A soma é:', resultado)
+
+# Atividade 8
+
+def par(numero):
+    if numero % 2 == 0:
+        return True
+    else:
+        return False
+
+
+resultado = par(10)
+print(resultado)
+
+# Atividade 9
+
+def media(lista):
+    soma = 0
+    contador = 0
+
+    while contador < len(lista):
+        soma = soma + lista[contador]
+        contador = contador + 1
+
+    return soma / len(lista)
+
+
+numeros = [5, 7, 10, 8]
+resultado = media(numeros)
+print('A média é:', resultado)
+
+# Atividade 10 
+
+def saudacao(nome):
+    print('Olá, ' + nome + '! Seja bem-vindo(a)!')
+
+
+saudacao('Maria')
+
+
+
+
+
+
+
+
+
